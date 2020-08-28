@@ -1,0 +1,24 @@
+{
+    "name": "azibom/timezones",
+    "description": "That package shows the time",
+    "authors": [
+        {
+            "name": "azibom",
+            "email": "azibom@azibom.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Azibom\\Timezones\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Azibom\\Timezones\\TimezonesServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
